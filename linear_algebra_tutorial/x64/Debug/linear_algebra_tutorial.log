@@ -1,0 +1,16 @@
+﻿  test_code.cpp
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\qb_matrix2.h(128,20): warning C4552: '-': result of expression not used
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\qb_matrix2.h(121): message : while compiling class template member function 'qb_matrix2<double>::qb_matrix2(int,int)'
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\qb_matrix2.h(498): message : see reference to function template instantiation 'qb_matrix2<double>::qb_matrix2(int,int)' being compiled
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\qb_matrix2.h(164): message : while compiling class template member function 'qb_matrix2<double>::qb_matrix2(int,int,const std::vector<T,std::allocator<T>>)'
+          with
+          [
+              T=double
+          ]
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\test_code.cpp(86): message : see reference to function template instantiation 'qb_matrix2<double>::qb_matrix2(int,int,const std::vector<T,std::allocator<T>>)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\User\source\repos\linear_algebra_tutorial\linear_algebra_tutorial\qb_matrix2.h(963): message : see reference to class template instantiation 'qb_matrix2<double>' being compiled
+  linear_algebra_tutorial.vcxproj -> C:\Users\User\source\repos\linear_algebra_tutorial\x64\Debug\linear_algebra_tutorial.exe
