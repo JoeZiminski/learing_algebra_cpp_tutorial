@@ -112,9 +112,6 @@ int main()
 	// their implementatino - 868 s (?)
 	// MATLAB implementation - 0.04 s   :D those BLAS / LAPACK libraries *drool* (+ smarter approach)
 
-
-
-	/*
 	// Test element retrieval.
 	cout << endl << "*****************************************" << endl;
 	cout << "Element (0, 0) = " << my_first_matrix.get_element(0, 0) << endl;
@@ -205,10 +202,6 @@ int main()
 
 	cout << "2.0 * my_first_matrix = " << endl;
 	print_matrix_2(2.0 * my_first_matrix);
-
-	*/
-
-
 
 	return 0;
 

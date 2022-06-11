@@ -381,7 +381,7 @@ qb_matrix2<T> qb_matrix2<T>::calculate_inverse()
 // the tutorial, implementation is slightly different in that it returns the inverse matrix
 // rather than set it as the class matrix.
 // 
-// TODO: this way is soem waste, because we loop through the matrix twice in total! 
+// TODO: this way is soem waste, because we loop through the matrix twice in total
 // ----------------------------------------------------------------------------------------
 {
 	if (m_n_rows != m_n_cols)
@@ -874,7 +874,7 @@ qb_matrix2<T> operator+ (const qb_matrix2<T>& lhs, const T& rhs)  // TODO: could
 
 }
 
-// Subtraction - DIRECT COPY AND PASTE
+// Subtraction
 
 template <class T>
 qb_matrix2<T> operator- (const qb_matrix2<T>& lhs, const qb_matrix2<T>& rhs)  // matrix + matrix 
@@ -937,7 +937,8 @@ qb_matrix2<T> operator- (const qb_matrix2<T>& lhs, const T& rhs)  // TODO: could
 
 }
 
-// Multiplication - DIRECT COPY AND PASTE FOR SCALAR VERSIONS
+// Multiplication
+
 template <class T>
 qb_matrix2<T> operator* (const qb_matrix2<T>& lhs, const qb_matrix2<T>& rhs)  // matrix + matrix 
 //
@@ -1017,7 +1018,7 @@ qb_matrix2<T> operator* (const T& lhs, const qb_matrix2<T>& rhs)  // scalar + ma
 
 
 template <class T>
-qb_matrix2<T> operator* (const qb_matrix2<T>& lhs, const T& rhs)  // TODO: could check matricies are the same size (for all operators)
+qb_matrix2<T> operator* (const qb_matrix2<T>& lhs, const T& rhs)  
 {
 	int n_rows = lhs.m_n_rows;
 	int n_cols = lhs.m_n_cols;

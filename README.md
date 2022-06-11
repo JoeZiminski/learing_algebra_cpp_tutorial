@@ -1,3 +1,4 @@
+<pre>
 QuantativeBytes' Tutorial: Linear Algebra in C++  
 https://www.youtube.com/playlist?list=PL3WoIG-PLjSv9vFx2dg0BqzDZH_6qzF8-
 
@@ -14,3 +15,4 @@ Chapter 2:
 	Implement own algorithm for Gauss-Jordan elimination from scratch
 	Use Gauss-Jordan elimination to calculate matrix inverse
     personal addition: implement algorithm for calculation of 2x2 and 3x3 determinant 
+</pre>
